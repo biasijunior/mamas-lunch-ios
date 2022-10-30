@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8904E65F290268EF00C71098 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904E65E290268EF00C71098 /* BasketView.swift */; };
+		8914D57B290A79E000E4EE24 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8914D57A290A79E000E4EE24 /* Meal.swift */; };
+		893587B52900383300D3F461 /* DishForDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893587B42900383300D3F461 /* DishForDay.swift */; };
+		893587B829003C0700D3F461 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893587B729003C0700D3F461 /* Route.swift */; };
+		893587BA29007C1D00D3F461 /* DetailedDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893587B929007C1D00D3F461 /* DetailedDish.swift */; };
+		895D51D2290E635900DB6D52 /* OtherPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D51D1290E635800DB6D52 /* OtherPaymentView.swift */; };
 		89609AC528FF546C0021BE71 /* VerticleScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89609AC428FF546B0021BE71 /* VerticleScroll.swift */; };
+		897B5F6E2906699C00409F6C /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897B5F6D2906699C00409F6C /* CheckoutView.swift */; };
 		899FCBDC28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBDB28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift */; };
 		899FCBDE28FD561600D8DDC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBDD28FD561600D8DDC6 /* ContentView.swift */; };
 		899FCBE028FD561A00D8DDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899FCBDF28FD561A00D8DDC6 /* Assets.xcassets */; };
@@ -16,6 +23,7 @@
 		899FCBF828FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBF728FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITests.swift */; };
 		899FCBFA28FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBF928FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITestsLaunchTests.swift */; };
 		899FCC0A28FD577100D8DDC6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCC0928FD577100D8DDC6 /* HomeScreen.swift */; };
+		89D07D2F28FFC72B008F37F2 /* SpecialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D07D2E28FFC72A008F37F2 /* SpecialMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8904E65E290268EF00C71098 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		8914D57A290A79E000E4EE24 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		893587B42900383300D3F461 /* DishForDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishForDay.swift; sourceTree = "<group>"; };
+		893587B729003C0700D3F461 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		893587B929007C1D00D3F461 /* DetailedDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedDish.swift; sourceTree = "<group>"; };
+		895D51D1290E635800DB6D52 /* OtherPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPaymentView.swift; sourceTree = "<group>"; };
 		89609AC428FF546B0021BE71 /* VerticleScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticleScroll.swift; sourceTree = "<group>"; };
+		897B5F6D2906699C00409F6C /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		899FCBD828FD561600D8DDC6 /* Mamas Lunch on the Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mamas Lunch on the Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		899FCBDB28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mamas_Lunch_on_the_GoApp.swift; sourceTree = "<group>"; };
 		899FCBDD28FD561600D8DDC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +64,7 @@
 		899FCBF728FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mamas_Lunch_on_the_GoUITests.swift; sourceTree = "<group>"; };
 		899FCBF928FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mamas_Lunch_on_the_GoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		899FCC0928FD577100D8DDC6 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		89D07D2E28FFC72A008F37F2 /* SpecialMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		893587B629003B9300D3F461 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				893587B729003C0700D3F461 /* Route.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
 		899FCBCF28FD561600D8DDC6 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				899FCBDB28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift */,
+				893587B629003B9300D3F461 /* Routes */,
 				89BD7EB928FE753900BB476F /* Models */,
 				899FCC0628FD56A900D8DDC6 /* Views */,
 				899FCBDF28FD561A00D8DDC6 /* Assets.xcassets */,
@@ -138,8 +163,14 @@
 			isa = PBXGroup;
 			children = (
 				899FCBDD28FD561600D8DDC6 /* ContentView.swift */,
+				893587B929007C1D00D3F461 /* DetailedDish.swift */,
+				893587B42900383300D3F461 /* DishForDay.swift */,
+				8904E65E290268EF00C71098 /* BasketView.swift */,
+				895D51D1290E635800DB6D52 /* OtherPaymentView.swift */,
 				899FCC0928FD577100D8DDC6 /* HomeScreen.swift */,
 				89609AC428FF546B0021BE71 /* VerticleScroll.swift */,
+				89D07D2E28FFC72A008F37F2 /* SpecialMenu.swift */,
+				897B5F6D2906699C00409F6C /* CheckoutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +178,7 @@
 		89BD7EB928FE753900BB476F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8914D57A290A79E000E4EE24 /* Meal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -281,10 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8904E65F290268EF00C71098 /* BasketView.swift in Sources */,
 				89609AC528FF546C0021BE71 /* VerticleScroll.swift in Sources */,
+				897B5F6E2906699C00409F6C /* CheckoutView.swift in Sources */,
+				893587BA29007C1D00D3F461 /* DetailedDish.swift in Sources */,
+				8914D57B290A79E000E4EE24 /* Meal.swift in Sources */,
 				899FCBDE28FD561600D8DDC6 /* ContentView.swift in Sources */,
 				899FCBDC28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift in Sources */,
+				89D07D2F28FFC72B008F37F2 /* SpecialMenu.swift in Sources */,
+				895D51D2290E635900DB6D52 /* OtherPaymentView.swift in Sources */,
 				899FCC0A28FD577100D8DDC6 /* HomeScreen.swift in Sources */,
+				893587B829003C0700D3F461 /* Route.swift in Sources */,
+				893587B52900383300D3F461 /* DishForDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
