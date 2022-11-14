@@ -11,6 +11,7 @@ struct BasketView: View {
     @State var totalCost = 0.0
     @State private var showingSheet = false
     @EnvironmentObject var foodItems : FoodBasket
+    @Environment(\.presentationMode) var presentationMode
 //    var foodItems : [Food]
     var body: some View {
         NavigationStack {
@@ -19,26 +20,31 @@ struct BasketView: View {
                     ForEach(foodItems.foodItems, id: \.foodID) { item in
                             
                         HStack{
-                            Image("mo")
-                                .resizable()
-                                .frame(width: 100, height: 100)
+                            AsyncImage(url: URL(string: item.foodImagePath)) { image in
+                                image
+                                    .resizable()
+                                    .scaledToFit()
+                            } placeholder: {
+                                Image("monday")
+                                    .resizable()                       }
+                            .frame(width: 100, height: 100)
+                           
+                               
                             VStack(alignment: .leading){
                              
                                 Text(item.foodTitle)
                                         .bold()
-                                        Spacer()
-                                 
-                                
+
                                 HStack {
-                                   
-                                    Text("ZMW \(item.foodPrice)")
+                                    Text("\(item.qty!) plates by K \(item.foodPrice)")
+//                                    Text("K \(item.foodPrice)")
                                     Spacer()
                                     Button(action: {
                                         self.deleteItem(at: IndexSet())
                                         foodItems.foodItems.removeAll(where: { menu in
                                             menu.foodID == item.foodID
                                         })
-                                        foodItems.totalCost -= Double(item.foodPrice) ?? 0
+                                        foodItems.totalCost -= Double(item.qty!) * Double(item.foodPrice)!
                                         
                                     }) {
                                               Label("",systemImage: "trash")
@@ -53,7 +59,7 @@ struct BasketView: View {
 
                         }.padding()
                         Divider()
-                        .navigationBarTitle("My Basket")
+                       
                     }.onDelete(perform: self.deleteItem)
                 }
                    
@@ -76,7 +82,19 @@ struct BasketView: View {
                    CheckoutView()
                }
 
-            }.environmentObject(foodItems)
+            }.environmentObject(self.foodItems)
+                .navigationBarTitle("My Basket")
+                .navigationBarItems(
+                    leading:
+                        Button(action: {
+                            presentationMode.wrappedValue.dismiss()
+                        }, label: {
+                            Text(" ⟨ Back").bold()
+                        })
+//                    trailing: Button("Clear", action: {
+//                        presentationMode.wrappedValue.dismiss()
+//                    })
+                                        )
         }
         
     }

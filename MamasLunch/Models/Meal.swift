@@ -33,7 +33,7 @@ struct Food: Codable {
     let foodID, foodTitle, foodDES, foodPrice: String
     let foodImagePath: String
     let foodSpecial, dayOfWeek: String
-    var  qty: Int = 0
+    var  qty: Int?
 
     enum CodingKeys: String, CodingKey {
         case foodID = "food_id"

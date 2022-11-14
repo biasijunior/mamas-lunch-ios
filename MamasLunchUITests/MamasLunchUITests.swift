@@ -1,5 +1,5 @@
 //
-//  Mamas_Lunch_on_the_GoUITests.swift
+//  MamasLunchUITests.swift
 //  Mamas Lunch on the GoUITests
 //
 //  Created by Biasi Wiga on 17/10/2022.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Mamas_Lunch_on_the_GoUITests: XCTestCase {
+final class MamasLunchUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

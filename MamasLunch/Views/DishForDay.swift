@@ -9,19 +9,22 @@ import SwiftUI
 
 struct DishForDay: View {
     var day: String
+    var dayselected : Weekday
    
     var body: some View {
         let menu = day + "'s Menu"
         NavigationStack {
                
-            VerticleScroll()
+            VerticleScroll( dayselected: dayselected)
                 .navigationTitle(menu)
-        }
+        }        
+        
     }
+ 
 }
 
 struct MenuForDay_Previews: PreviewProvider {
     static var previews: some View {
-        DishForDay(day: "hi")
+        DishForDay(day: "j", dayselected: .none)
     }
 }

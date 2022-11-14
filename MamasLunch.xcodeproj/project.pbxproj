@@ -7,23 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69BF902AFB29878938C3A7A3 /* Pods_MamasLunchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E7857498BBBF0572A4333E /* Pods_MamasLunchTests.framework */; };
 		8904E65F290268EF00C71098 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904E65E290268EF00C71098 /* BasketView.swift */; };
 		8914D57B290A79E000E4EE24 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8914D57A290A79E000E4EE24 /* Meal.swift */; };
 		893587B52900383300D3F461 /* DishForDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893587B42900383300D3F461 /* DishForDay.swift */; };
 		893587B829003C0700D3F461 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893587B729003C0700D3F461 /* Route.swift */; };
 		893587BA29007C1D00D3F461 /* DetailedDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893587B929007C1D00D3F461 /* DetailedDish.swift */; };
+		89384CE6291CDF8300C4D722 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89384CE5291CDF8300C4D722 /* ProfileView.swift */; };
 		895D51D2290E635900DB6D52 /* OtherPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D51D1290E635800DB6D52 /* OtherPaymentView.swift */; };
 		89609AC528FF546C0021BE71 /* VerticleScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89609AC428FF546B0021BE71 /* VerticleScroll.swift */; };
 		897B5F6E2906699C00409F6C /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897B5F6D2906699C00409F6C /* CheckoutView.swift */; };
-		899FCBDC28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBDB28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift */; };
+		899FCBDC28FD561600D8DDC6 /* MamasLunchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBDB28FD561600D8DDC6 /* MamasLunchApp.swift */; };
 		899FCBDE28FD561600D8DDC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBDD28FD561600D8DDC6 /* ContentView.swift */; };
 		899FCBE028FD561A00D8DDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899FCBDF28FD561A00D8DDC6 /* Assets.xcassets */; };
 		899FCBE428FD561A00D8DDC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899FCBE328FD561A00D8DDC6 /* Preview Assets.xcassets */; };
-		899FCBEE28FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBED28FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoTests.swift */; };
-		899FCBF828FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBF728FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITests.swift */; };
-		899FCBFA28FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBF928FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITestsLaunchTests.swift */; };
+		899FCBEE28FD561A00D8DDC6 /* MamasLunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBED28FD561A00D8DDC6 /* MamasLunchTests.swift */; };
+		899FCBF828FD561A00D8DDC6 /* MamasLunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBF728FD561A00D8DDC6 /* MamasLunchUITests.swift */; };
+		899FCBFA28FD561A00D8DDC6 /* MamasLunchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCBF928FD561A00D8DDC6 /* MamasLunchUITestsLaunchTests.swift */; };
 		899FCC0A28FD577100D8DDC6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FCC0928FD577100D8DDC6 /* HomeScreen.swift */; };
 		89D07D2F28FFC72B008F37F2 /* SpecialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D07D2E28FFC72A008F37F2 /* SpecialMenu.swift */; };
+		89D3951B2911169500DFFCD8 /* FlutterwaveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D3951A2911169500DFFCD8 /* FlutterwaveVC.swift */; };
+		EACB5DD80A016DE471453556 /* Pods_MamasLunch_MamasLunchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B050FEFBFA40969BA99CCD /* Pods_MamasLunch_MamasLunchUITests.framework */; };
+		FC3BBF45414D3384428FA1F3 /* Pods_MamasLunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE54CD392A319820E82D7CBF /* Pods_MamasLunch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,27 +49,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30B050FEFBFA40969BA99CCD /* Pods_MamasLunch_MamasLunchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamasLunch_MamasLunchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E7857498BBBF0572A4333E /* Pods_MamasLunchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamasLunchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AF7A15B13BC64F34771F7B /* Pods-MamasLunch-MamasLunchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamasLunch-MamasLunchUITests.release.xcconfig"; path = "Target Support Files/Pods-MamasLunch-MamasLunchUITests/Pods-MamasLunch-MamasLunchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E04332E2F80E1A00877C075 /* Pods-MamasLunchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamasLunchTests.release.xcconfig"; path = "Target Support Files/Pods-MamasLunchTests/Pods-MamasLunchTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C42C48CDBEECDC09B35B4AE /* Pods-MamasLunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamasLunch.release.xcconfig"; path = "Target Support Files/Pods-MamasLunch/Pods-MamasLunch.release.xcconfig"; sourceTree = "<group>"; };
 		8904E65E290268EF00C71098 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
 		8914D57A290A79E000E4EE24 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		893587B42900383300D3F461 /* DishForDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishForDay.swift; sourceTree = "<group>"; };
 		893587B729003C0700D3F461 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		893587B929007C1D00D3F461 /* DetailedDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedDish.swift; sourceTree = "<group>"; };
+		89384CE5291CDF8300C4D722 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		895D51D1290E635800DB6D52 /* OtherPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPaymentView.swift; sourceTree = "<group>"; };
 		89609AC428FF546B0021BE71 /* VerticleScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticleScroll.swift; sourceTree = "<group>"; };
 		897B5F6D2906699C00409F6C /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
-		899FCBD828FD561600D8DDC6 /* Mamas Lunch on the Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mamas Lunch on the Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		899FCBDB28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mamas_Lunch_on_the_GoApp.swift; sourceTree = "<group>"; };
+		899FCBD828FD561600D8DDC6 /* MamasLunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamasLunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		899FCBDB28FD561600D8DDC6 /* MamasLunchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamasLunchApp.swift; sourceTree = "<group>"; };
 		899FCBDD28FD561600D8DDC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		899FCBDF28FD561A00D8DDC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		899FCBE128FD561A00D8DDC6 /* Mamas_Lunch_on_the_Go.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mamas_Lunch_on_the_Go.entitlements; sourceTree = "<group>"; };
+		899FCBE128FD561A00D8DDC6 /* MamasLunch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MamasLunch.entitlements; path = "/Users/biasi/Documents/Mr Mumba's/Mamas Lunch on the Go/MamasLunch/MamasLunch.entitlements"; sourceTree = "<absolute>"; };
 		899FCBE328FD561A00D8DDC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		899FCBE928FD561A00D8DDC6 /* Mamas Lunch on the GoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mamas Lunch on the GoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		899FCBED28FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mamas_Lunch_on_the_GoTests.swift; sourceTree = "<group>"; };
-		899FCBF328FD561A00D8DDC6 /* Mamas Lunch on the GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mamas Lunch on the GoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		899FCBF728FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mamas_Lunch_on_the_GoUITests.swift; sourceTree = "<group>"; };
-		899FCBF928FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mamas_Lunch_on_the_GoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		899FCBE928FD561A00D8DDC6 /* MamasLunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamasLunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899FCBED28FD561A00D8DDC6 /* MamasLunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamasLunchTests.swift; sourceTree = "<group>"; };
+		899FCBF328FD561A00D8DDC6 /* MamasLunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamasLunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899FCBF728FD561A00D8DDC6 /* MamasLunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamasLunchUITests.swift; sourceTree = "<group>"; };
+		899FCBF928FD561A00D8DDC6 /* MamasLunchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamasLunchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		899FCC0928FD577100D8DDC6 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		89D07D2E28FFC72A008F37F2 /* SpecialMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialMenu.swift; sourceTree = "<group>"; };
+		89D3951A2911169500DFFCD8 /* FlutterwaveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterwaveVC.swift; sourceTree = "<group>"; };
+		9F0E278AE6C33BA06E936EDE /* Pods-MamasLunch-MamasLunchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamasLunch-MamasLunchUITests.debug.xcconfig"; path = "Target Support Files/Pods-MamasLunch-MamasLunchUITests/Pods-MamasLunch-MamasLunchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C969A8729FB01EDF7AAC72E5 /* Pods-MamasLunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamasLunch.debug.xcconfig"; path = "Target Support Files/Pods-MamasLunch/Pods-MamasLunch.debug.xcconfig"; sourceTree = "<group>"; };
+		DE54CD392A319820E82D7CBF /* Pods_MamasLunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamasLunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB92C81157C262A737FA926E /* Pods-MamasLunchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamasLunchTests.debug.xcconfig"; path = "Target Support Files/Pods-MamasLunchTests/Pods-MamasLunchTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3BBF45414D3384428FA1F3 /* Pods_MamasLunch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69BF902AFB29878938C3A7A3 /* Pods_MamasLunchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACB5DD80A016DE471453556 /* Pods_MamasLunch_MamasLunchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		456A0646D42C5EA42A419134 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C969A8729FB01EDF7AAC72E5 /* Pods-MamasLunch.debug.xcconfig */,
+				5C42C48CDBEECDC09B35B4AE /* Pods-MamasLunch.release.xcconfig */,
+				9F0E278AE6C33BA06E936EDE /* Pods-MamasLunch-MamasLunchUITests.debug.xcconfig */,
+				47AF7A15B13BC64F34771F7B /* Pods-MamasLunch-MamasLunchUITests.release.xcconfig */,
+				EB92C81157C262A737FA926E /* Pods-MamasLunchTests.debug.xcconfig */,
+				4E04332E2F80E1A00877C075 /* Pods-MamasLunchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		741F1EF179FAE64E409E6641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE54CD392A319820E82D7CBF /* Pods_MamasLunch.framework */,
+				30B050FEFBFA40969BA99CCD /* Pods_MamasLunch_MamasLunchUITests.framework */,
+				44E7857498BBBF0572A4333E /* Pods_MamasLunchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		893587B629003B9300D3F461 /* Routes */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,35 +145,37 @@
 		899FCBCF28FD561600D8DDC6 = {
 			isa = PBXGroup;
 			children = (
-				899FCBDA28FD561600D8DDC6 /* Mamas Lunch on the Go */,
-				899FCBEC28FD561A00D8DDC6 /* Mamas Lunch on the GoTests */,
-				899FCBF628FD561A00D8DDC6 /* Mamas Lunch on the GoUITests */,
+				899FCBDA28FD561600D8DDC6 /* MamasLunch */,
+				899FCBEC28FD561A00D8DDC6 /* MamasLunchTests */,
+				899FCBF628FD561A00D8DDC6 /* MamasLunchUITests */,
 				899FCBD928FD561600D8DDC6 /* Products */,
+				456A0646D42C5EA42A419134 /* Pods */,
+				741F1EF179FAE64E409E6641 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		899FCBD928FD561600D8DDC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				899FCBD828FD561600D8DDC6 /* Mamas Lunch on the Go.app */,
-				899FCBE928FD561A00D8DDC6 /* Mamas Lunch on the GoTests.xctest */,
-				899FCBF328FD561A00D8DDC6 /* Mamas Lunch on the GoUITests.xctest */,
+				899FCBD828FD561600D8DDC6 /* MamasLunch.app */,
+				899FCBE928FD561A00D8DDC6 /* MamasLunchTests.xctest */,
+				899FCBF328FD561A00D8DDC6 /* MamasLunchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		899FCBDA28FD561600D8DDC6 /* Mamas Lunch on the Go */ = {
+		899FCBDA28FD561600D8DDC6 /* MamasLunch */ = {
 			isa = PBXGroup;
 			children = (
-				899FCBDB28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift */,
+				899FCBDB28FD561600D8DDC6 /* MamasLunchApp.swift */,
 				893587B629003B9300D3F461 /* Routes */,
 				89BD7EB928FE753900BB476F /* Models */,
 				899FCC0628FD56A900D8DDC6 /* Views */,
 				899FCBDF28FD561A00D8DDC6 /* Assets.xcassets */,
-				899FCBE128FD561A00D8DDC6 /* Mamas_Lunch_on_the_Go.entitlements */,
+				899FCBE128FD561A00D8DDC6 /* MamasLunch.entitlements */,
 				899FCBE228FD561A00D8DDC6 /* Preview Content */,
 			);
-			path = "Mamas Lunch on the Go";
+			path = MamasLunch;
 			sourceTree = "<group>";
 		};
 		899FCBE228FD561A00D8DDC6 /* Preview Content */ = {
@@ -142,21 +186,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		899FCBEC28FD561A00D8DDC6 /* Mamas Lunch on the GoTests */ = {
+		899FCBEC28FD561A00D8DDC6 /* MamasLunchTests */ = {
 			isa = PBXGroup;
 			children = (
-				899FCBED28FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoTests.swift */,
+				899FCBED28FD561A00D8DDC6 /* MamasLunchTests.swift */,
 			);
-			path = "Mamas Lunch on the GoTests";
+			path = MamasLunchTests;
 			sourceTree = "<group>";
 		};
-		899FCBF628FD561A00D8DDC6 /* Mamas Lunch on the GoUITests */ = {
+		899FCBF628FD561A00D8DDC6 /* MamasLunchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				899FCBF728FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITests.swift */,
-				899FCBF928FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITestsLaunchTests.swift */,
+				899FCBF728FD561A00D8DDC6 /* MamasLunchUITests.swift */,
+				899FCBF928FD561A00D8DDC6 /* MamasLunchUITestsLaunchTests.swift */,
 			);
-			path = "Mamas Lunch on the GoUITests";
+			path = MamasLunchUITests;
 			sourceTree = "<group>";
 		};
 		899FCC0628FD56A900D8DDC6 /* Views */ = {
@@ -165,7 +209,9 @@
 				899FCBDD28FD561600D8DDC6 /* ContentView.swift */,
 				893587B929007C1D00D3F461 /* DetailedDish.swift */,
 				893587B42900383300D3F461 /* DishForDay.swift */,
+				89D3951A2911169500DFFCD8 /* FlutterwaveVC.swift */,
 				8904E65E290268EF00C71098 /* BasketView.swift */,
+				89384CE5291CDF8300C4D722 /* ProfileView.swift */,
 				895D51D1290E635800DB6D52 /* OtherPaymentView.swift */,
 				899FCC0928FD577100D8DDC6 /* HomeScreen.swift */,
 				89609AC428FF546B0021BE71 /* VerticleScroll.swift */,
@@ -186,27 +232,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		899FCBD728FD561600D8DDC6 /* Mamas Lunch on the Go */ = {
+		899FCBD728FD561600D8DDC6 /* MamasLunch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 899FCBFD28FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "Mamas Lunch on the Go" */;
+			buildConfigurationList = 899FCBFD28FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "MamasLunch" */;
 			buildPhases = (
+				0B9F6D7851C2AE87358C1E75 /* [CP] Check Pods Manifest.lock */,
 				899FCBD428FD561600D8DDC6 /* Sources */,
 				899FCBD528FD561600D8DDC6 /* Frameworks */,
 				899FCBD628FD561600D8DDC6 /* Resources */,
+				9E4A4E7051A73C73DFA95BB4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Mamas Lunch on the Go";
+			name = MamasLunch;
 			productName = "Mamas Lunch on the Go";
-			productReference = 899FCBD828FD561600D8DDC6 /* Mamas Lunch on the Go.app */;
+			productReference = 899FCBD828FD561600D8DDC6 /* MamasLunch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		899FCBE828FD561A00D8DDC6 /* Mamas Lunch on the GoTests */ = {
+		899FCBE828FD561A00D8DDC6 /* MamasLunchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 899FCC0028FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "Mamas Lunch on the GoTests" */;
+			buildConfigurationList = 899FCC0028FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "MamasLunchTests" */;
 			buildPhases = (
+				CBAF8775D05076C6F3764850 /* [CP] Check Pods Manifest.lock */,
 				899FCBE528FD561A00D8DDC6 /* Sources */,
 				899FCBE628FD561A00D8DDC6 /* Frameworks */,
 				899FCBE728FD561A00D8DDC6 /* Resources */,
@@ -216,27 +265,29 @@
 			dependencies = (
 				899FCBEB28FD561A00D8DDC6 /* PBXTargetDependency */,
 			);
-			name = "Mamas Lunch on the GoTests";
+			name = MamasLunchTests;
 			productName = "Mamas Lunch on the GoTests";
-			productReference = 899FCBE928FD561A00D8DDC6 /* Mamas Lunch on the GoTests.xctest */;
+			productReference = 899FCBE928FD561A00D8DDC6 /* MamasLunchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		899FCBF228FD561A00D8DDC6 /* Mamas Lunch on the GoUITests */ = {
+		899FCBF228FD561A00D8DDC6 /* MamasLunchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 899FCC0328FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "Mamas Lunch on the GoUITests" */;
+			buildConfigurationList = 899FCC0328FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "MamasLunchUITests" */;
 			buildPhases = (
+				01C383E5D871077E803DA2F3 /* [CP] Check Pods Manifest.lock */,
 				899FCBEF28FD561A00D8DDC6 /* Sources */,
 				899FCBF028FD561A00D8DDC6 /* Frameworks */,
 				899FCBF128FD561A00D8DDC6 /* Resources */,
+				2FCA3E24A8733F6C1FC62A58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				899FCBF528FD561A00D8DDC6 /* PBXTargetDependency */,
 			);
-			name = "Mamas Lunch on the GoUITests";
+			name = MamasLunchUITests;
 			productName = "Mamas Lunch on the GoUITests";
-			productReference = 899FCBF328FD561A00D8DDC6 /* Mamas Lunch on the GoUITests.xctest */;
+			productReference = 899FCBF328FD561A00D8DDC6 /* MamasLunchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -262,7 +313,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 899FCBD328FD561600D8DDC6 /* Build configuration list for PBXProject "Mamas Lunch on the Go" */;
+			buildConfigurationList = 899FCBD328FD561600D8DDC6 /* Build configuration list for PBXProject "MamasLunch" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -275,9 +326,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				899FCBD728FD561600D8DDC6 /* Mamas Lunch on the Go */,
-				899FCBE828FD561A00D8DDC6 /* Mamas Lunch on the GoTests */,
-				899FCBF228FD561A00D8DDC6 /* Mamas Lunch on the GoUITests */,
+				899FCBD728FD561600D8DDC6 /* MamasLunch */,
+				899FCBE828FD561A00D8DDC6 /* MamasLunchTests */,
+				899FCBF228FD561A00D8DDC6 /* MamasLunchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,6 +359,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01C383E5D871077E803DA2F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MamasLunch-MamasLunchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B9F6D7851C2AE87358C1E75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MamasLunch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FCA3E24A8733F6C1FC62A58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MamasLunch-MamasLunchUITests/Pods-MamasLunch-MamasLunchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MamasLunch-MamasLunchUITests/Pods-MamasLunch-MamasLunchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MamasLunch-MamasLunchUITests/Pods-MamasLunch-MamasLunchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E4A4E7051A73C73DFA95BB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MamasLunch/Pods-MamasLunch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MamasLunch/Pods-MamasLunch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MamasLunch/Pods-MamasLunch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAF8775D05076C6F3764850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MamasLunchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		899FCBD428FD561600D8DDC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -317,13 +471,15 @@
 				89609AC528FF546C0021BE71 /* VerticleScroll.swift in Sources */,
 				897B5F6E2906699C00409F6C /* CheckoutView.swift in Sources */,
 				893587BA29007C1D00D3F461 /* DetailedDish.swift in Sources */,
+				89D3951B2911169500DFFCD8 /* FlutterwaveVC.swift in Sources */,
 				8914D57B290A79E000E4EE24 /* Meal.swift in Sources */,
 				899FCBDE28FD561600D8DDC6 /* ContentView.swift in Sources */,
-				899FCBDC28FD561600D8DDC6 /* Mamas_Lunch_on_the_GoApp.swift in Sources */,
+				899FCBDC28FD561600D8DDC6 /* MamasLunchApp.swift in Sources */,
 				89D07D2F28FFC72B008F37F2 /* SpecialMenu.swift in Sources */,
 				895D51D2290E635900DB6D52 /* OtherPaymentView.swift in Sources */,
 				899FCC0A28FD577100D8DDC6 /* HomeScreen.swift in Sources */,
 				893587B829003C0700D3F461 /* Route.swift in Sources */,
+				89384CE6291CDF8300C4D722 /* ProfileView.swift in Sources */,
 				893587B52900383300D3F461 /* DishForDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899FCBEE28FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoTests.swift in Sources */,
+				899FCBEE28FD561A00D8DDC6 /* MamasLunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +496,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899FCBFA28FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITestsLaunchTests.swift in Sources */,
-				899FCBF828FD561A00D8DDC6 /* Mamas_Lunch_on_the_GoUITests.swift in Sources */,
+				899FCBFA28FD561A00D8DDC6 /* MamasLunchUITestsLaunchTests.swift in Sources */,
+				899FCBF828FD561A00D8DDC6 /* MamasLunchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,12 +506,12 @@
 /* Begin PBXTargetDependency section */
 		899FCBEB28FD561A00D8DDC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 899FCBD728FD561600D8DDC6 /* Mamas Lunch on the Go */;
+			target = 899FCBD728FD561600D8DDC6 /* MamasLunch */;
 			targetProxy = 899FCBEA28FD561A00D8DDC6 /* PBXContainerItemProxy */;
 		};
 		899FCBF528FD561A00D8DDC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 899FCBD728FD561600D8DDC6 /* Mamas Lunch on the Go */;
+			target = 899FCBD728FD561600D8DDC6 /* MamasLunch */;
 			targetProxy = 899FCBF428FD561A00D8DDC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -472,15 +628,20 @@
 		};
 		899FCBFE28FD561A00D8DDC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C969A8729FB01EDF7AAC72E5 /* Pods-MamasLunch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Mamas Lunch on the Go/Mamas_Lunch_on_the_Go.entitlements";
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_ENTITLEMENTS = MamasLunch/MamasLunch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Mamas Lunch on the Go/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MamasLunch/Preview Content\"";
+				DEVELOPMENT_TEAM = T5R955TR3T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -489,17 +650,19 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mamasfooddelivery.Mamas-Lunch-on-the-Go";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamasfooddelivery.MamasLunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,15 +671,20 @@
 		};
 		899FCBFF28FD561A00D8DDC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C42C48CDBEECDC09B35B4AE /* Pods-MamasLunch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Mamas Lunch on the Go/Mamas_Lunch_on_the_Go.entitlements";
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_ENTITLEMENTS = MamasLunch/MamasLunch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Mamas Lunch on the Go/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MamasLunch/Preview Content\"";
+				DEVELOPMENT_TEAM = T5R955TR3T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -525,17 +693,19 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mamasfooddelivery.Mamas-Lunch-on-the-Go";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamasfooddelivery.MamasLunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -544,6 +714,7 @@
 		};
 		899FCC0128FD561A00D8DDC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB92C81157C262A737FA926E /* Pods-MamasLunchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,12 +731,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mamas Lunch on the Go.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mamas Lunch on the Go";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamasLunch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MamasLunch";
 			};
 			name = Debug;
 		};
 		899FCC0228FD561A00D8DDC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E04332E2F80E1A00877C075 /* Pods-MamasLunchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,12 +754,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mamas Lunch on the Go.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mamas Lunch on the Go";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamasLunch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MamasLunch";
 			};
 			name = Release;
 		};
 		899FCC0428FD561A00D8DDC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0E278AE6C33BA06E936EDE /* Pods-MamasLunch-MamasLunchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -609,6 +782,7 @@
 		};
 		899FCC0528FD561A00D8DDC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AF7A15B13BC64F34771F7B /* Pods-MamasLunch-MamasLunchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -631,7 +805,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		899FCBD328FD561600D8DDC6 /* Build configuration list for PBXProject "Mamas Lunch on the Go" */ = {
+		899FCBD328FD561600D8DDC6 /* Build configuration list for PBXProject "MamasLunch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				899FCBFB28FD561A00D8DDC6 /* Debug */,
@@ -640,7 +814,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		899FCBFD28FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "Mamas Lunch on the Go" */ = {
+		899FCBFD28FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "MamasLunch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				899FCBFE28FD561A00D8DDC6 /* Debug */,
@@ -649,7 +823,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		899FCC0028FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "Mamas Lunch on the GoTests" */ = {
+		899FCC0028FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "MamasLunchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				899FCC0128FD561A00D8DDC6 /* Debug */,
@@ -658,7 +832,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		899FCC0328FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "Mamas Lunch on the GoUITests" */ = {
+		899FCC0328FD561A00D8DDC6 /* Build configuration list for PBXNativeTarget "MamasLunchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				899FCC0428FD561A00D8DDC6 /* Debug */,

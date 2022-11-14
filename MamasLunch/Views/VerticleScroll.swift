@@ -7,10 +7,14 @@
 
 import SwiftUI
 
+
+
+
 struct VerticleScroll: View {
     
     @State var foodMenu = [Food]()
-//    @StateObject var foodBasket = FoodBasket()
+    @StateObject var foodBasket = FoodBasket()
+    var dayselected : Weekday
     let data = (1...100).map { "Item \($0)" }
     
     let columns = [
@@ -25,7 +29,7 @@ struct VerticleScroll: View {
             LazyVGrid(columns: columns) {
 //                h(foodMenu, id: \.foodID)
                     ForEach(foodMenu , id: \.foodID) { item in
-                        NavigationLink(destination: DetailedDish(food: item)) {
+                        NavigationLink(destination: DetailedDish(totalCost: Double(item.foodPrice ) ?? 0, food: item)) {
                             VStack {
                                                                 //
                                 AsyncImage(url: URL(string: item.foodImagePath)) { image in
@@ -33,7 +37,7 @@ struct VerticleScroll: View {
                                         .resizable()
                                         .scaledToFit()
                                 } placeholder: {
-                                    Image("mo")
+                                    Image("monday")
                                         .resizable()                       }
                                 .frame( height: 170)
                                 VStack(alignment: .leading){
@@ -71,9 +75,14 @@ struct VerticleScroll: View {
                       
                        
                     }
-            }.padding(6)        }                                .shadow(color: Color.black.opacity(0.1), radius: 18, x: 0, y: 0).task {
-                await loadData()
-            }
+            }.padding(6)
+                .task {
+                    await fetchData(for: dayselected)
+                }
+            
+        }.shadow(color: Color.black.opacity(0.1), radius: 18, x: 0, y: 0)            .environmentObject(foodBasket)
+
+            
         
     }
     
@@ -82,23 +91,46 @@ struct VerticleScroll: View {
         guard let url  = URL(string: "https://mamaslunchonthego.net/v1/api_1/food/get_menu.php") else {
             print("invalid url")
             return  }
+        print("the url is", url)
+        do{
+            let (data,_) = try await URLSession.shared.data(from: url)
+            print("the data is", data)
+            if let decodedResponse = try? JSONDecoder().decode(Meal.self, from: data ){
+                print("decoded result", decodedResponse)
+                foodMenu = decodedResponse.data
+            }
+            
+
+        }catch(let error){
+            print("invalid data", error.localizedDescription)
+        }
+    }
+    
+    func fetchData(for day: Weekday) async {
+        guard let url = URL(string: "https://mamaslunchonthego.net/v1/api_1/food/\(day.rawValue)") else {
+            print("invalid url")
+            return
+        }
+        print("valide ", url)
         
         do{
             let (data,_) = try await URLSession.shared.data(from: url)
+            print("the data is", data)
             if let decodedResponse = try? JSONDecoder().decode(Meal.self, from: data ){
-                print("decoded result", decodedResponse.data)
+                print("decoded result", decodedResponse)
                 foodMenu = decodedResponse.data
             }
-        }catch{
-            print("invalid data")
+            
+
+        }catch(let error){
+            print("invalid data", error.localizedDescription)
         }
-        
-        //fetch data
-    }
+        }
+    
 }
 
 struct VerticleScroll_Previews: PreviewProvider {
     static var previews: some View {
-        VerticleScroll()
+        VerticleScroll(dayselected: .none)
     }
 }

@@ -19,7 +19,7 @@ struct SpecialMenu: View {
             ScrollView(.horizontal,showsIndicators: false) {
                 HStack {
                     ForEach(food, id:  \.foodID) { item in
-                        NavigationLink(destination: DetailedDish( food:item)) {
+                        NavigationLink(destination: DetailedDish( totalCost: Double(item.foodPrice) ?? 0, food:item)) {
                             VStack(alignment: .center, spacing: 5) {
                                 Image("cleaned_logo")
                                     .resizable()
@@ -58,7 +58,7 @@ struct SpecialMenu: View {
                 food = json.data
             }
         }catch{
-            print("something went wrong")
+            print("something went wrong", error.localizedDescription)
         }
     }
 }

@@ -17,7 +17,7 @@ struct OtherPaymentView: View {
                     Image("cleaned_logo")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: .infinity,height: 300)
+                        .frame(height: 300)
                     Section(header: Text("Step 1").bold()) {
                         Text("Send Payment to :").padding(.leading, 1)
                                    Text("Airtel : 0970840853")
@@ -46,7 +46,7 @@ struct OtherPaymentView: View {
                         Button {
                             
                         } label: {
-                            Text("Process")
+                            Text("Confirm").bold()
                                 .frame(maxWidth: .infinity, minHeight: 35)
                         }                    .buttonStyle(.borderedProminent)
                             .tint(.blue)
@@ -55,7 +55,7 @@ struct OtherPaymentView: View {
 
                    
                 }.padding()
-            }.navigationBarTitle("Process Paymet")
+            }.navigationBarTitle("Confirm Payment")
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  Mamas_Lunch_on_the_GoUITestsLaunchTests.swift
+//  MamasLunchUITestsLaunchTests.swift
 //  Mamas Lunch on the GoUITests
 //
 //  Created by Biasi Wiga on 17/10/2022.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Mamas_Lunch_on_the_GoUITestsLaunchTests: XCTestCase {
+final class MamasLunchUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
